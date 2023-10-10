@@ -1,0 +1,2 @@
+insert into users (name, last_name, username, email, password, national_code) 
+values ("ehsan", "shariaty", "ehsansh", "ehsan@gmail.com", "12345678", "1234768918")
