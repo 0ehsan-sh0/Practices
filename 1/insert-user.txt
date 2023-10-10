@@ -1,2 +1,12 @@
-insert into users (name, last_name, username, email, password, national_code) 
-values ("ehsan", "shariaty", "ehsansh", "ehsan@gmail.com", "12345678", "1234768918")
+// creating the user table
+
+CREATE TABLE users
+(`id` BIGINT NOT NULL AUTO_INCREMENT , `name` VARCHAR(255) NOT NULL , `last_name` VARCHAR(255) NULL ,
+ `username` VARCHAR(255) NULL , `email` VARCHAR(255) NOT NULL , `password` VARCHAR(255) NOT NULL , 
+ PRIMARY KEY (`id`), UNIQUE `email` (`email`(255)))
+ ENGINE = InnoDB;
+
+// inserting a user
+
+insert into users (name, last_name, username, email, password) 
+values ("ehsan", "shariaty", "ehsansh", "ehsan@gmail.com", "12345678")
