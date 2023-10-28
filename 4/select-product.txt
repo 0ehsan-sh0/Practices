@@ -1,0 +1,6 @@
+
+// get all products information
+select * from products
+
+// get second product information
+select * from products where id = 2
