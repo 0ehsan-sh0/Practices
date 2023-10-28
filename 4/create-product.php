@@ -123,6 +123,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         <label>Date on Sale To:</label>
         <input type="datetime-local" name="date_on_sale_to"><br>
+
+        <button type="submit">Delete</button>
     </form>
 </body>
 
